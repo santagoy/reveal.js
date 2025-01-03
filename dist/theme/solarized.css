@@ -36,8 +36,8 @@ html * {
   --r-heading4-size: 1em;
   --r-code-font: monospace;
   --r-link-color: #268bd2;
-  --r-link-color-dark: rgb(32.3, 118.15, 178.5);
-  --r-link-color-hover: rgb(77.5161290323, 162.8774193548, 222.8838709677);
+  --r-link-color-dark: #1a6091;
+  --r-link-color-hover: #78b9e6;
   --r-selection-background-color: #d33682;
   --r-selection-color: #fff;
   --r-overlay-element-bg-color: 0, 0, 0;
@@ -47,6 +47,10 @@ html * {
 .reveal-viewport {
   background: #fdf6e3;
   background-color: var(--r-background-color);
+	background-image: url(./logo.png);
+	background-size: 8%;
+	background-repeat: no-repeat;
+	background-position: 90% 93%;
 }
 
 .reveal {
@@ -157,9 +161,9 @@ html * {
   margin: 0 0 0 1em;
 }
 
-.reveal ol {
+/* .reveal ol {
   list-style-type: decimal;
-}
+} */
 
 .reveal ul {
   list-style-type: disc;
